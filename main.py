@@ -2,8 +2,8 @@ from Classifer.CLF import *
 from time import time
 
 
-feature = '/home/atticus/PycharmProjects/Audio/Features/ship_25_2.csv'
-metadata = '/home/atticus/PycharmProjects/Audio/Features/meta.csv'
+feature = './Features/ship.csv'
+metadata = './Features/meta.csv'
 
 #Classifer(feature,metadata,model_name='NN',epoch=30,batch_size=512,leave_one_out=True,type=12)
 
